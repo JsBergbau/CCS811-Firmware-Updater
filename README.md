@@ -35,6 +35,7 @@ optional arguments:
 ## Advantages of firmware upgrade to version 2.0.1
 
 Warning: NTC temperature correction is not available any more with firmware 2.x
+Warning: Disabling automatic baseline calibration or adjusting interval of automatic baseline calibration between every hour and every 1023 hours is also not available anymore.
 
 Firmware version 1.1.0 had a maximum range of 8194 ppm eCO2 and 1187 ppb TVOC. Both values correlated somehow. With firmware version 2.0.1 both values go to 64000 ppb for TVOC and 64000 for eCO2
 according to datasheet. However in my tests with a permanent marker TVOC was maximum at 29206 ppb whereas eCO2 bounced between 16752 ppm and 27613 ppm. Still this is a massive increase in dynamic range.
